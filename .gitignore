@@ -1,0 +1,93 @@
+# =====================
+# ENV / SECRETS
+# =====================
+.env
+.env.*
+*.env
+
+# API keys / credentials
+config/secrets.*
+config/*.key
+
+# =====================
+# PYTHON
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# =====================
+# DATA 
+# =====================
+data/raw/
+data/processed/
+data/external/
+
+# CSV / parquet locaux 
+*.csv
+*.parquet
+*.jsonl
+
+# =====================
+# LOGS
+# =====================
+logs/
+*.log
+
+# =====================
+# DATABASE
+# =====================
+*.sqlite
+*.db
+
+# Postgres local dumps
+*.dump
+*.sql
+
+# =====================
+# DOCKER
+# =====================
+docker-compose.override.yml
+
+# volumes locaux
+postgres_data/
+db_data/
+
+# =====================
+# IDE / EDITORS
+# =====================
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# test
+test*
