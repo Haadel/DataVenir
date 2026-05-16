@@ -1,63 +1,63 @@
 # DataVenir
 
-Comprendre le marché de l’emploi data.  
-Mettre à nu les compétences réellement valorisées.
+Understanding the data job market.
+Uncovering the skills that are truly valued.
 
 ---
 
-## 📌 Contexte
+[🇫🇷 French Version](README.fr.md) | [🇬🇧 English Version](README.md)
 
-Le marché de l’emploi dans la data évolue vite : nouveaux outils, explosion de l’IA, montée des exigences techniques.
+## 📌 Context
 
-Mais entre ce qui est demandé dans les offres et ce qui est réellement compris par les candidats, il existe souvent un écart.
+The data job market is evolving rapidly: new tools, the rise of AI, and increasing technical requirements.
 
-**DataVenir** est un projet d’analyse du marché de l’emploi data en France, basé sur les données de l’API France Travail.
+However, there is often a gap between what job postings require and what candidates actually understand.
 
-Il vise à transformer des offres d’emploi brutes en insights exploitables sur :
+**DataVenir** is a project analyzing the data job market in France, based on data from the France Travail API.
 
-- les compétences réellement recherchées
-- les tendances de recrutement
-- les niveaux d’expérience attendus
-- les salaires proposés
-- les dynamiques du marché
+It aims to turn raw job postings into actionable insights on:
 
----
-
-## 🎯 Objectifs
-
-- Collecter et structurer des offres d’emploi data en France
-- Extraire automatiquement les compétences (NLP)
-- Analyser les tendances du marché de l’emploi
-- Identifier les écarts entre profils et marché (skill gap)
-- Construire une visualisation claire et interactive du marché
+* the skills that are truly in demand
+* hiring trends
+* expected experience levels
+* offered salaries
+* market dynamics
 
 ---
 
-## 🔎 Questions auxquelles répond le projet
+## 🎯 Objectives
 
-- Quelles compétences sont réellement demandées aujourd’hui ?
-- Quels outils dominent le marché (Python, Spark, Airflow, etc.) ?
-- Le marché est-il réellement “junior friendly” ?
-- Quels salaires pour quels profils ?
-- Quelles compétences sont sous-estimées ou surcotées ?
-- Comment évolue le marché dans le temps ?
+* Collect and structure data job postings in France
+* Automatically extract skills (NLP)
+* Analyze job market trends
+* Identify gaps between profiles and market demand (skill gap)
+* Build a clear and interactive visualization of the job market
+
+---
+
+## 🔎 Key questions addressed by the project
+
+* What skills are actually in demand today?
+* Which tools dominate the market (Python, Spark, Airflow, etc.)?
+* Is the market really “junior friendly”?
+* What salaries correspond to which profiles?
+* Which skills are underestimated or overvalued?
+* How is the job market evolving over time?
 
 ---
 
-## 🧠 Données utilisées
+## 🧠 Data sources
 
-Source principale :
+Main source:
 
-- API France Travail
+* France Travail API
 
-Types de données exploitées :
+Types of data used:
 
-- Offres d’emploi complètes
-- Descriptions de poste
-- Localisation
-- Type de contrat
-- Niveau d’expérience
-- Salaires (quand disponibles)
-- Nom de l’entreprise
-
----
+* Full job postings
+* Job descriptions
+* Location
+* Contract type
+* Experience level
+* Salaries (when available)
+* Company name
