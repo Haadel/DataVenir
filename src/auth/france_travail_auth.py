@@ -25,3 +25,7 @@ def get_access_token():
     response.raise_for_status()
 
     return response.json()["access_token"]
+
+def refresh_token_if_needed(): ## TODO
+    # Implementation for refreshing the token if it's expired
+    pass
